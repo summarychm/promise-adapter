@@ -1,5 +1,5 @@
 const Promise = require("./core/promise");
-
+// 用于promises-aplus-tests测试
 const resolved = (value) => Promise.resolve(value);
 const rejected = (reason) => Promise.reject(reason);
 const deferred = () => {
